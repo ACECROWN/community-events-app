@@ -1,18 +1,24 @@
-# React + Vite
+# 地域コミュニティイベント管理アプリ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## プロジェクト概要
+都市部の地域コミュニティのイベント情報を管理・閲覧する簡易ウェブアプリです。
+投稿フォームでイベントを追加し、一覧で確認、タイトルをクリックすると詳細ページを表示できます。
+フロントエンド（React）のみで構築されています。
 
-Currently, two official plugins are available:
+## 使用技術
+- React
+- Vite
+- React Router DOM
+- CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## セットアップ手順
+```bash
+# リポジトリをクローン
+git clone git@github.com:ACECROWN/community-events-app.git
+cd community-events-app
 
-## React Compiler
+# 依存関係をインストール
+npm install
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 開発サーバー起動
+npm run dev

@@ -1,0 +1,37 @@
+.event-form-wrapper {
+  display: flex;
+  justify-content: center; /* 横中央寄せ */
+  margin: 20px 0;
+}
+
+.event-form {
+  width: 100%;
+  max-width: 1280px; /* ヘッダーと同じ最大幅 */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* パディングを幅に含める */
+}
+
+.event-form input,
+.event-form button {
+  width: 100%; /* 横幅いっぱいに */
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.event-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.event-form button:hover {
+  background-color: #0056b3;
+}

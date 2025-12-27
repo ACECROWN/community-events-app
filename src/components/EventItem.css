@@ -1,0 +1,17 @@
+.event-item {
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  width: 100%;          /* 親の幅いっぱいに広げる */
+  box-sizing: border-box;
+}
+
+.event-link {
+  text-decoration: underline; /* 下線 */
+  color: blue; /* リンク色 */
+}
+
+.event-link:hover {
+  color: darkblue; /* ホバー色 */
+}

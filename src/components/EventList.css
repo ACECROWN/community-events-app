@@ -1,0 +1,7 @@
+/* src/components/EventList.css */
+.event-list {
+  max-width: 1280px; /* ヘッダーと同じ最大幅 */
+  margin: 0 auto;    /* 中央寄せ */
+  padding: 0 20px;   /* 横に少し余白 */
+  box-sizing: border-box;
+}
